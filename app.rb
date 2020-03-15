@@ -3,7 +3,7 @@
 class App < Sinatra::Base
   
   get '/' do
-    "200, My name is Lucy" 
+    "200, My name is " 
   end
   
   get '/' do 

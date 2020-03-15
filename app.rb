@@ -3,16 +3,20 @@
 class App < Sinatra::Base
   
   get '/' do
-    "My name is \_\_" 
+    "Hello World" 
   end
   
-  get '/' do 
-    "200, My hometown is " 
+  get '/name' do 
+    "My name is Lucy" 
   end
   
-  get '/' do 
-   "200, My favorite song is "
+  get '/hometown' do 
+   "My hometown is Miami Beach"
  end
+ 
+  get '/favorite-song' do 
+    "My favorite song is Hello"
+  end
  
 end
 
